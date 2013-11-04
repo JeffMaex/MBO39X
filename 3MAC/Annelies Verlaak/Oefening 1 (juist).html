@@ -1,0 +1,66 @@
+﻿
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" />
+		<title>Oefening 1</title>
+		<meta name="Annelies Verlaak" content="Auteur van de pagina">
+		<meta name="description" content="Webdesign en desktoppublishing: week 3">
+		<meta name="language" content="nl"><!-- Nederlands -->
+
+		<link rel="stylesheet" type="text/css" title="Normalize browsers" href="https://raw.github.com/necolas/normalize.css/master/normalize.css" >
+		<link rel="stylesheet" type="text/css" title="Basis Opmaak" href="stijl.css" >
+		<style type="text/css">
+			/*Stijldefinities */
+
+/*
+			body {
+				background-color: rgb(161,11,126);
+				color: rgb(239,11,162);
+			}
+			article {
+				max-width: 35em;
+				margin:auto;
+				margin-bottom:5em;
+			}
+			article header {
+				text-align: center;
+				margin-bottom: 1em;
+			}
+			article header h1 {
+				font-size:3em;
+			}
+			article header p.abstract {
+				font-style: italic;
+			}
+			figure img { max-width: 100%;}
+*/
+
+		</style>
+	</head>
+	<body>
+		<article>
+			<header>
+				<h1>Webdesign en desktoppublishing: week 3</h1>
+				<p class="abstract">Na de intensieve les van vorig week waarbij we een zee van informatie moesten verwerken, begon de derde week iets rustiger. We gingen verder werken rond HTML-codes, maar zonder browsers zijn HTML-codes niet echt nuttig. Daarom kregen we eerst wat achtergrond over de Internet Explorer, Chrome, Safari en Firefox.</p>
+			</header>
+			<section>
+				<h2>Browsers</h2>
+				<p>Internet Explorer was lange tijd de meest gebruikte browser maar werd vaak belachelijk gemaakt door computerkenners. Internet Explorer werkt namelijk niet zoals andere browsers omdat het een eigen rendering engine heeft. De software “rendering” leest en begrijpt HTML-codes en geeft die weer op het computerscherm. Chrome en Safari gebruiken beiden de webkit rendering engine, die open source is en ook HTML begrijpt en kan weergeven. Firefox gebruikt ook zijn eigen rendering engine, namelijk Mozilla, maar werkt wel ongeveer hetzelfde als de engines van Chrome en Safari, in tegenstelling tot Internet Explorer die een beetje zijn eigen zin doet.</p>
+				<p>Deze cross browser issues zijn al jarenlang een probleem. Er zijn webstandaarden waarbij browsers afspraken moeten volgen indien ze standard compliant willen zijn. Dit wil zeggen dat een browser de afspraken naleeft van het World Wide Web Consortium (W3C). Mozilla volgt deze standaard en ook de webkit browser van Apple en Google. Internet Explorer koos ervoor om deze standaard niet te volgen omdat ze jarenlang het grootste aandeel hadden en er dus geen reden was om te veranderen.</p>
+				<p>Enkele jaren geleden kwam daar verandering in doordat Microsoft de boot gemist heeft op vlak van mobiel internet. Hierdoor heeft het zijn positie als marktleider moeten doorgeven aan Apple. Wat sinds jaren ’90 en tot voor kort gebeurde met Microsoft, gebeurt dus nu met Apple. Apple wil namelijk de standaarden niet meer volgen omdat ze 80% marktaandeel bezitten op vlak van mobiel internet. Hierdoor hebben ze de vrijheid om vrij te spelen met standaarden.</p>
+				<figure>
+					<img src="https://www.antagonist.nl/blog/wp-content/uploads/2013/09/browsers.jpg" alt="Afbeeldingske van 't internet" />
+					<figcaption lang="fr">Browser wars</figcaption>
+				</figure>
+			</section>
+				<h2>Protocollen</h2>
+				<p>Als we op het internet dingen willen doen die voor iedereen werken, moeten we afspraken maken in de vorm van protocollen. Een belangrijk punt hierbij is dat browsers en rendering engines die functionaliteit ook willen ondersteunen. Door afspraken te maken op het internet doen ze een intentieverklaring waarmee ze aantonen dat ze hun best willen doen. Maar wanneer iemand zo sterk wordt dat ze de afspraken die de rest maakt niet meer moeten volgen, dan worden deze ook niet meer nageleefd. Om ons daartegen te beschermen, werkt Mozilla open source waardoor iedereen het vrij kan gebruiken en bewerken.</p>
+				<p>De webkit rendering engines van Chrome en Safari gebruiken beiden dezelfde open source webkit software. Webdevelopers van Google en Apple werkten jarenlang aan een webkit en alles wat ze wijzigden, voegden ze toe aan de grote verzameling van webkit software. Iedereen werkte samen en voegde dingen toe waardoor er een standaard werd gecreëerd. Maar Apple voegde na een tijdje ook dingen toe die de rest niet te zien kreeg waarop Google ook zijn eigen webkit ging maken, maar wel open source. Google heeft die webkit, waarop het zijn browser Chrome baseerde, dus als het ware gevorkt. De Google-'fork' van WebKit zal voortaan worden aangeduid als 'Blink' (http://www.automatiseringgids.nl/nieuws/2013/14/google-zet-zn-vork-in-webkit).</p>
+			</section>
+			<section>
+				<h2>HTML</h2>
+				<p>Kortom betekent webdesign dat je zoveel mogelijk je best kunt doen om de standaard te volgen, maar dat mensen toch proberen om elkaar zoveel mogelijk te beconcurreren. Een andere betekenis van webdesign die in de les aan bod kwam, is dat webdesign inhoudt dat je “dingen beter doet dan de browser default doet”. Tijdens de les leren we dit met behulp van HTML-codes. HTML staat voor ‘Hyper Text Markup Language’. Het is een programmeertaal waarmee Internet-pagina`s kunnen worden opgemaakt, het toont namelijk de onderliggende structuur van een document. Hiervoor leren we om een groot aantal opmaakcodes te gebruiken.</p>
+				<p>Er zijn ook enkele begrippen die regelmatig terugkomen bij HTML-codes zoals ‘section’, wat hoofdstuk betekent, en ‘figcaption/figure caption’, wat het bijschrift bij de afbeelding is. Hierbij wordt er opzoek gegaan naar een image-element, op voorwaarde dat het in een figure-element zit. ‘Strings’ worden gebruikt om een opgeslagen stuk tekst te manipuleren. Hierbij is het ook van belang om deze altijd tussen aanhalingstekens te plaatsen. Ook de term ‘mark up’ kwam ter sprake waarbij dingen gemarkeerd worden. Dit houdt in dat er een betekenis wordt toegekend aan stukken tekst, zodanig dat de browser correct wordt begrepen en de tekst kan worden vormgegeven.'< dd >' is een tag die gebruikt wordt om een term in een beschrijvingslijst te beschrijven, zoals de voluit geschreven term ‘definition description’ eigenlijk al verklaart. CSS, voluit Cascading Style Sheets, definieert stijlen hoe HTML-codes worden weergegeven. Externe Style Sheets worden opgeslagen in CSS-bestanden en kunnen ook een hoop werk bespare				n.</p>
+				<p>Natuurlijk kwamen niet alle termen aan bod tijdens de les, maar daarvoor is de website: http://www.w3schools.com/tags/ een handig hulpmiddel. Hier zijn alle codes terug te vinden die nuttig kunnen zijn bij het maken en bewerken van een website. Aangezien het dus moeilijk is om HTML verder uit te leggen in een blog en ik er zelf nog volop over aan het bijleren ben, is het ook handig om een kijkje te gaan nemen op de website: http://www.w3schools.com/html/.</p>
+				

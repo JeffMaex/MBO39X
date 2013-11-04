@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body
+ {
+	background: center 0 no-repeat rgba(230,230,223, 1);
+	text-align: center;
+	color: white;
+	font: Arial, Helvetica, sans-serif;
+ }
+ 
+
+ h1
+ {
+ color:black;
+ text-align:center;
+ color: rgba(230, 93, 92, 1);
+ font-size: 2.2 em;
+ font-weight: bold;
+ }
+ 
+ 
+ p
+ {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 1.2em;
+ text-align: center;
+ color: rgba(55, 55, 55, 0.5);
+ width: 50%;
+ }
+

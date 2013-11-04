@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=5f3ed690ba7b73b89a4b48ebfd494b48"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>Limited edition of my Tumblr account / Week 3, les 1 - Zelf webpagina&rsquo;s aanpassen</title>
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://koninglemmens.tumblr.com/rss"/>
+	<link rel="Shortcut Icon" type="image/png" href="http://24.media.tumblr.com/avatar_87b310361cb5_128.png" />
+	<meta name="description" content="Week 3, les 1 - Zelf webpagina&rsquo;s aanpassen Na vorige week de basis van het maken van een HTML-code te hebben gezien, gingen we deze week verder op deze basis. We kopieerden namelijk HTML-codes uit..." />
+	
+	<!-- DEFAULT IMAGE -->
+	<meta name="image:Background" content="http://assets.tumblr.com/images/x.gif"/>
+	
+	<!-- DEFAULT COLORS -->
+	<meta name="color:Background" content="#262626"/>
+	<meta name="color:Text" content="#fff"/>
+	<meta name="color:Links" content="#ffbc00"/>
+	
+	<meta name="if:Show notes" content="1">
+	<meta name="text:Disqus Shortname" content="" />
+	
+<style type="text/css">
+a img, img a {border:none;}
+
+* {padding:0;margin:0;}
+
+.clear {clear:both;}
+
+iframe {top:7px !important;}
+
+#wrapper {
+	width:600px;
+	margin:0 auto;
+}
+
+body {
+	background: #D2691E;
+	border-top:6px solid #ffbc00;
+}
+
+#top {
+	margin:45px 0 70px 0;
+}
+
+#header {
+	float:left;
+}
+
+#header h1 a, #header h1 a:hover {
+	display:block;
+	text-decoration:none;
+	font-family:Georgia;
+	font-size:60px;
+	color:#FFF8DC;
+	font-weight:normal;
+}
+
+#header h1 {	
+	margin:6px 0 -17px 0;
+}
+
+
+#header div {
+	color:#FFF8DC;
+	font-size:14px;
+	font-family: "Georgia";
+	text-transform:lowercase;
+	font-style:italic;
+	float:left;
+	margin-top:8px;
+}
+
+#header div a {
+	color:#ffbc00;
+	font-size:14px;
+	font-family: "Georgia";
+	text-transform:lowercase;
+	font-style:italic;
+	text-decoration:none;
+}
+
+#header div a:hover {
+	text-decoration:underline;
+}
+
+#nav {
+	float:right;
+	margin-top:32px;
+	margin-left: -32px;
+	text-align:left;
+}
+
+#nav li {
+    line-height: 40px;
+	display:inline-block;
+	list-style:none;
+	margin-left:22px;
+}
+
+
+#nav li a {
+	color:#ffbc00;
+	font-family:"Lucida Grande", "Lucida Sans Unicode";
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+	padding:10px 10px 10px 10px;
+}
+
+#nav li a:hover {
+	color:#262626;
+	background:#ffbc00;
+}
+
+/* CONTENT */
+
+#main {
+	width:600px;
+	margin:0 auto;
+}
+
+span.icon a, .iconp {
+	position:absolute;
+	float:left;
+	margin:0 0 0 0;
+	top:-3px;
+	left:-37px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+	text-indent:-9999px;
+	background:url('http://static.tumblr.com/0prbykj/DzhjQBxSQ/icon.png') no-repeat;
+	height:27px;
+	width:27px;
+}
+
+span.meta a {
+	position:absolute;
+	margin:0 0 0 0;
+	font-family:Helvetica, Arial;
+	font-size:9px;
+	color:#adadad;
+	font-weight:normal;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:right;
+}
+
+    span.meta a.timestamp {
+        width: 40px;
+        top: 30px;
+        left: -54px;
+    }
+    
+    span.meta .count {
+        width: 85px;
+        top: 42px !important;
+        left: -100px;
+    }
+    
+    
+
+span.meta a b {
+	color:#fff;
+}
+
+/* GENERAL POSTS */
+
+.post {
+	margin:0 0 80px 0;
+	position:relative;
+}
+
+.post .ttl a, .ttlp {
+	font-family:Georgia;
+	font-weight:normal;
+	color:#FFF8DC;
+	font-size:21px;
+	padding:7px;
+	background:#ffbc00;
+	text-decoration:none;
+	text-transform:lowercase;
+}
+
+.ttl a:hover {
+	background:#ffc523;
+}
+
+.ttl a span {
+	padding:7px 0px 7px 4px;
+}
+
+.post .body {
+	margin:20px 0 0 0;
+	font-family:"Lucida Grande", "Lucida Sans Unicode";
+	font-size:11px;
+	color:#fff;
+	line-height:17px;
+}
+	
+.post .body a, .item .text a, .chat ul li a, .quote .source a {
+	color:#ffbc00;
+	text-decoration:none;
+	font-variant:small-caps;
+	font-family:Georgia;
+	font-size:11px;
+}
+
+.post .body a:hover, .item .text a:hover, .chat ul li a:hover, .quote .source a:hover {
+	text-decoration:underline;
+}
+
+
+.post p {
+	margin:12px 0 12px 0;
+}
+
+.post pre {
+	margin:12px 0 12px 15px;
+	font-size:10px;
+}
+
+.post ul, .post ol {
+	margin:12px 0 12px 40px;
+}
+
+.post ul li {
+	list-style:circle;
+	margin-bottom:3px;
+}
+
+.post ol li {
+	margin-bottom:3px;
+}
+
+.post blockquote {
+	margin-left:20px;
+	border-left:1px solid #ccc;
+	padding-left:10px;
+	color:#ccc;
+}
+
+.source {
+	font-family:Georgia;
+	font-size:12px;
+	font-variant:small-caps;
+	text-transform:none;
+	color:#ffbc00;
+	margin:11px 0px 0 0;
+	
+}
+
+.source a {
+	color:#ffbc00;
+	text-decoration:none;
+}
+
+.source a:hover {
+	text-decoration:underline;
+}
+
+#daybox {
+	margin-bottom:45px;
+}
+
+#day {
+	font-family:Georgia;
+	font-variant:small-caps;
+	font-size:18px;
+	color:#fff;
+}
+
+/* PHOTOS, VIDEOS, AUDIO */
+
+.photo .body, .video .body, .audio.body {
+	margin-top:10px;
+}
+
+/* QUOTES */
+.quote {
+	margin-top:-15px;
+}
+
+.quote .body {
+	font-family:Georgia;
+	font-size:18px;
+	line-height:25px;
+}
+
+.quote span.icon a {
+	top:0px;
+}
+
+.quote .byline {
+	float:right;
+}
+
+.quote .source {
+	font-family:"Lucida Grande", "Lucida Sans Unicode";
+	font-size:11px;
+	color:#fff;
+	line-height:17px;
+	font-variant:normal !important;	
+}
+
+/* CHATS */
+
+.chat ul {
+	margin:20px 0 0 0;
+}
+
+.chat ul li {
+	list-style:none;
+	font-family:"Lucida Grande", "Lucida Sans Unicode";
+	font-size:11px;
+	color:#fff;
+	padding:8px;
+}
+
+.label {
+	font-weight:bold;
+}
+
+li.odd {
+	background:#1f1f1f;
+}
+
+li.even {
+	background:#292929;
+}
+
+/* PAGENAV */
+#pagenav {
+	margin:60px 0 0 0;
+}
+
+#pagenav .inner {
+	text-align:center;
+	position:relative;
+}
+
+#older, #newer {
+	color:#262626;
+	font-family:"Georgia";
+	font-size:11px;
+	text-transform:uppercase;
+	padding:7px;
+	background:#ffbc00;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	top:-2px;
+}
+
+#older:hover, #newer:hover {
+	background:#ffc523;
+}
+
+#older {
+	float:left;
+	text-align:left;
+	left:0px;
+}
+
+#newer {
+	float:right;
+	text-align:right;
+	right:10px;
+}
+
+#pages {
+	color:#D2691E;
+	font-family:"Georgia";
+	font-size:11px;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+/* FOOTER */
+
+#bottom {
+	border-top:2px solid #ffbc00;
+	border-bottom:2px solid #ffbc00;
+	margin:80px 0 40px 0;
+	font-family:"Lucida Grande";
+	font-size:10px;
+	color:#ccc;
+	text-align:center;
+	padding:13px 0 13px 0;
+}
+
+#bottomp {
+	border-top:2px solid #ffbc00;
+	border-bottom:2px solid #ffbc00;
+	margin:0px 0 40px 0;
+	font-family:"Lucida Grande";
+	font-size:10px;
+	color:#ccc;
+	text-align:center;
+	padding:13px 0 13px 0;
+}
+
+#bottom a, #bottom a:hover, #bottom b {
+	color:#ccc;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.text img {
+	max-width: 100%;
+}
+
+#disqus_thread {
+    font-family:"Lucida Grande", "Lucida Sans Unicode";
+	font-size:11px;
+	color:#fff;
+	line-height:17px;
+}
+
+    #disqus_thread a {
+        color:#ffbc00;
+    	text-decoration:none;
+    	font-variant:small-caps;
+    	font-family:Georgia;
+    	font-size:11px;
+    }
+    
+ol.notes {
+    font-family:"Lucida Grande", "Lucida Sans Unicode";
+	font-size:11px;
+	color:#fff;
+	line-height:17px;
+	font-variant:normal !important;
+	padding: 0px;
+	margin: 50px 0 60px 0;
+	list-style-type: none;
+	clear: both
+}
+
+ol.notes a {
+    color: #ffbc00;
+    text-decoration: none;
+}
+
+ol.notes img.avatar {
+    max-width: 16px;
+	margin: 2px 8px 0 0;
+	float: left;
+}
+
+ol.notes span.action {
+	float: left;
+	padding-top: 1px;
+	line-height: 18px;
+}
+
+ol.notes .clear {
+	clear: both;
+	height: 1px;
+}
+
+ol.notes blockquote {
+	padding: 4px 10px;
+	margin: 7px 0px 0px 25px;
+	font-weight: normal;
+}
+
+ol.notes blockquote a {
+	text-decoration: none;
+}
+
+ol.notes .answer_content {
+	font-weight: normal;
+}
+
+
+
+</style>
+
+
+
+<!--[if IE]>
+<style type="text/css">
+#bottom {
+	margin:100px 0 40px 0;
+}
+
+#top {
+	margin:45px 0 155px 0;
+}
+
+.ttl a span {
+	padding:0px 0px 0px 4px;
+}
+
+span.icon a, .iconp {
+	top:5px;
+	left:-37px;
+}
+
+span.meta a {
+	top:38px;
+	left:-54px;
+}
+
+#nav li a {
+	color:#ffbc00;
+	font-family:"Lucida Grande", "Lucida Sans Unicode";
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+	padding:10px 10px 10px 10px;
+}
+
+#nav li a:hover, #nav li a.on {
+	background:#262626;
+	color:#ffc523;
+}
+</style>
+<![endif]-->
+
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS -->
+<!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. -->
+<!-- Read more: http://ogp.me/ -->
+<meta property="fb:app_id" content="48119224995" />
+<meta property="og:site_name" content="Limited edition of my Tumblr account" />
+<meta property="og:title" content="Week 3, les 1 - Zelf webpagina&rsquo;s aanpassen" />
+<meta property="og:url" content="http://koninglemmens.tumblr.com/post/63855901528/week-3-les-1-zelf-webpaginas-aanpassen" />
+<meta property="og:description" content="Na vorige week de basis van het maken van een HTML-code te hebben gezien, gingen we deze week verder op deze basis. We kopieerden namelijk HTML-codes uit webpagina&rsquo;s en pasten hier zelf een beetje..." />
+<meta property="og:determiner" content="a" />
+<meta property="og:type" content="tumblr-feed:entry" />
+<meta property="og:image" content="http://media.tumblr.com/8bc779382f0820e5c0361a124f2ae75a/tumblr_inline_mukqyoosxr1snzhne.jpg" />
+<meta property="og:image" content="http://media.tumblr.com/b1632a21d828db1b5cfb0dad476881ea/tumblr_inline_mukr0hEFO11snzhne.jpg" />
+<meta property="og:image" content="http://media.tumblr.com/48cc601183cac5419678843aec881433/tumblr_inline_mukr2gGevG1snzhne.jpg" />
+<!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS -->
+<meta charset="utf-8">
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:description" content="Na vorige week de basis van het maken van een HTML-code te hebben gezien, gingen we deze week verder op deze basis. &nbsp;We kopieerden namelijk HTML-codes uit webpagina&rsquo;s en pasten hier zelf een beetje deze codes in aan.  Eerst een kleine theoretische inleiding.  Het World Wide Web bestaat uit webstandaarden, deze standaarden zijn ontworpen voor ondermeer HTML, XML en CSS. De organisatie die deze standaarden ontwerpt, noemt World Wide Web Consortium (W3C).
+ 
+ Er bestaat ook de defactostandaard, dit is een protocol of een programmeertaal die als standaard wordt beschouwd, maar echter niet door een &lsquo;standaard&rsquo;organisatie is goedgekeurd. Deze standaard is echter wel veelgebruikt binnen de bepaalde industrie.
+ We kennen bijvoorbeeld Windows. Vroeger bepaalde Windows zelf de standaard, ze hadden toen het grootste marktaandeel (nu trouwens nog betreffende Desktoppen, maar in mindere mate).  Nu is Apple het &lsquo;nieuwe&rsquo; Windows, zij volgen niet de standaarden op de markt. Op de markt van de Smartphones is Apple dan ook marktleider.  Elke marktspeler werkte samen aan een betere &lsquo;open source&rsquo; standaard en voegde er zelf elementen aan toe. Apple voegde er echter elementen aan toe die andere niet konden gebruiken.   Webpagina&rsquo;s zelf aanpassen  Niemand kan je website op het internet zien voor je hem hebt gedeployed, voor een webpagina noemt dit publiceren.  Als we een HTML-code van een website willen zien drukken we op de rechtermuisknop en vervolgens selecteren we Paginabron weergeven. Omdat dit van browser tot browser verschilt, hebben we besloten op Google Chrome te gebruiken.  Nu gaan we enkele elementen van de HTML-code aanpassen, hiermee willen we aanpassingen aan de webpagina maken, die door de browser niet standaard gebeuren. Dit is namelijk het doel van Webdesign. We willen onze eigen webpagina&rsquo;s verbeteren!  We pasten bv. het h1&amp;#160;element in de &nbsp;&amp;lt;body&amp;gt; aan.  h1{font-weight:normal;}
+ 
+
+ -&amp;gt; Door dit te doen werd ondermeer het vet van de titel verwijderd. 
+ &amp;lt;!&mdash;xxx &amp;#8212;&amp;gt;&nbsp;&nbsp;&nbsp;&nbsp; =&nbsp; hulpstuk, De tekst binnen deze tekens zal niet op je webpagina verschijnen.  /*Stijldefinities */ = Stijldefinities zal bv. Niet worden weergegeven/toegepast op je webdocument.  figure img { max-width: 100%;} = figuur word kleiner als je de browser ook kleiner maakt. De figuur mag Max. 100% breed van browser zijn.
+ Wist-je-datjes - Met een Mac (Apple), krijg je rapper hoofdpijn door lang naar je PC-scherm te kijken. Dit komt doordat de TL-lampen in Europa een andere frequentie hebben dan deze in Amerika. De Apple pc&rsquo;s zijn afgestemd op de frequentie van Amerika, waardoor de frequenties in Europa dus niet gelijk zijn. Rapper hoofdpijn krijgen is hiervan het gevolg.  - Je kunt best je tekst opmaken in gebroken wit en dit met donkergrijze tekst, dit is makkelijker voor je hersenen, waardoor je dus minder snel vermoeid word tijdens het bekijken van je computerscherm.  - Vanaf nu kunnen we alles over de blogs en de lessen te weten komen op:&nbsp;https://dl.dropboxusercontent.com/u/84711/KHL/WebdesignDTP/index.html
+ 
+
+   
+
+ " />
+            <meta name="twitter:title" content="Week 3, les 1 - Zelf webpagina&rsquo;s aanpassen" />
+            <meta name="twitter:url" content="http://koninglemmens.tumblr.com/post/63855901528/week-3-les-1-zelf-webpaginas-aanpassen" />
+            <meta name="twitter:site" content="tumblr" />
+            <meta name="twitter:creator" content="Joaquimos" />
+            <meta name="twitter:app:name:iphone" content="Tumblr" />
+            <meta name="twitter:app:name:ipad" content="Tumblr" />
+            <meta name="twitter:app:name:googleplay" content="Tumblr" />
+            <meta name="twitter:app:id:iphone" content="305343404" />
+            <meta name="twitter:app:id:ipad" content="305343404" />
+            <meta name="twitter:app:id:googleplay" content="com.tumblr" />
+            <meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=koninglemmens&amp;postID=63855901528&amp;referrer=twitter-cards" />
+            <meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=koninglemmens&amp;postID=63855901528&amp;referrer=twitter-cards" />
+            <meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=koninglemmens&amp;postID=63855901528&amp;referrer=twitter-cards" />
+    
+
+<script type="text/javascript" src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=ae2bec0bd304fa61af690a6bfa11eb58"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+</head>
+
+<body>
+<div id="wrapper">
+
+	<div id="top">
+
+		<div id="header">
+			<h1><a href="/">Limited edition of my Tumblr account</a></h1>
+			<div>Tumblr Account created by Joachim Lemmens, student 3th year event - projectmanagement, KHLeuven </div>
+		</div>
+
+		<ul id="nav">
+			<li><a href="/">Home</a></li>
+			
+            <li><a href="/ask">Vraag? Shoot!</a></li>
+            <li><a href="/submit">Bericht? Jawel, shoot!</a></li>
+			<li><a href="/archive">Archive</a></li>
+			<li><a href="http://koninglemmens.tumblr.com/rss ">RSS</a></li>
+		</ul>
+
+		
+		
+	<br class="clear">
+	</div>
+
+	<div id="main">
+
+	
+
+	
+
+		
+
+		
+
+		
+
+		
+		<div class="post text">
+			<span class="icon"><a href="http://koninglemmens.tumblr.com/post/63855901528/week-3-les-1-zelf-webpaginas-aanpassen">Text</a></span>
+			<span class="meta">
+			    <a href="/day/2013/10/12/" class="timestamp"><b>12</b>&nbsp;Oct</a>
+			    
+			    
+			</span>
+			<span class="ttl"><a href="http://koninglemmens.tumblr.com/post/63855901528/week-3-les-1-zelf-webpaginas-aanpassen">Week 3, les 1 - Zelf webpagina&rsquo;s aanpassen</a></span>
+			<div class="body">
+			<p><FONT face="Verdana, Arial, Courier"> Na vorige week de basis van het maken van een HTML-code te hebben gezien, gingen we deze week verder op deze basis.  We kopieerden namelijk HTML-codes uit webpagina’s en pasten hier zelf een beetje deze codes in aan.<br/><br/> Eerst een kleine theoretische inleiding.<br/> Het <strong>World Wide Web</strong> bestaat uit webstandaarden, deze standaarden zijn ontworpen voor ondermeer <strong>HTML, XML en CSS. </strong>De organisatie die deze standaarden ontwerpt, noemt<strong> World Wide Web Consortium (W3C).</strong></p>
+<p><center><img src="http://media.tumblr.com/8bc779382f0820e5c0361a124f2ae75a/tumblr_inline_mukqyoosxr1snzhne.jpg" alt="Worldwide connections" height="80%" width="80%"></center></p>
+<p><span data-mce-mark="1">Er bestaat ook de </span><strong>defactostandaard, </strong><span data-mce-mark="1">dit is een protocol of een programmeertaal die als standaard wordt beschouwd, maar echter niet door een ‘standaard’organisatie is goedgekeurd. Deze standaard is echter wel veelgebruikt binnen de bepaalde industrie.</span></p>
+<p>We kennen bijvoorbeeld <strong>Windows. </strong>Vroeger bepaalde Windows zelf de standaard, ze hadden toen het grootste marktaandeel (nu trouwens nog betreffende Desktoppen, maar in mindere mate).<br/> Nu is <strong>Apple </strong>het ‘nieuwe’ Windows, zij volgen niet de standaarden op de markt. Op de markt van de Smartphones is Apple dan ook marktleider.<br/> Elke marktspeler werkte samen aan een betere ‘open source’ standaard en voegde er zelf elementen aan toe. Apple voegde er echter elementen aan toe die andere niet konden gebruiken.<br/><strong><br/> <CENTER><FONT size="+1">Webpagina’s zelf aanpassen</FONT></CENTER></strong><br/><br/> Niemand kan je website op het internet zien voor je hem hebt <strong>gedeployed, </strong>voor een webpagina noemt dit <strong>publiceren.</strong><br/> Als we een HTML-code van een website willen zien drukken we op de rechtermuisknop en vervolgens selecteren we <strong>Paginabron weergeven</strong>. Omdat dit van browser tot browser verschilt, hebben we besloten op <strong>Google Chrome </strong>te gebruiken.<br/><br/> Nu gaan we enkele elementen van de HTML-code aanpassen, hiermee willen we aanpassingen aan de webpagina maken, die door de browser niet standaard gebeuren. Dit is namelijk het doel van <strong>Webdesign.</strong> We willen onze eigen webpagina’s verbeteren!<br/> We pasten bv. het <strong>h1&#160;</strong>element in de  <strong>&lt;body&gt; </strong>aan.<br/><br/> h1{font-weight:normal;}</p>
+<p><center><img src="http://media.tumblr.com/b1632a21d828db1b5cfb0dad476881ea/tumblr_inline_mukr0hEFO11snzhne.jpg" alt="Worldwide connections" height="80%" width="80%"></center></p>
+
+<p>-&gt; Door dit te doen werd ondermeer het vet van de titel verwijderd.<br/><br/></p>
+<p>&lt;!—xxx &#8212;&gt;     =  hulpstuk, De tekst binnen deze tekens zal niet op je webpagina verschijnen.<br/> /*Stijldefinities */ = Stijldefinities zal bv. Niet worden weergegeven/toegepast op je webdocument.<br/> figure img { max-width: 100%;} = figuur word kleiner als je de browser ook kleiner maakt. De figuur mag Max. 100% breed van browser zijn.</p>
+<p><strong><FONT color=#B8B8B8 > <CENTER><FONT size="+1">Wist-je-datjes</FONT></CENTER><br/></strong><LI>Met een <strong>Mac (Apple)</strong>, krijg je rapper hoofdpijn door lang naar je PC-scherm te kijken. Dit komt doordat de TL-lampen in Europa een andere frequentie hebben dan deze in Amerika. De Apple pc’s zijn afgestemd op de frequentie van Amerika, waardoor de frequenties in Europa dus niet gelijk zijn. Rapper hoofdpijn krijgen is hiervan het gevolg.<br/></LI>  
+<LI>Je kunt best je tekst opmaken in gebroken wit en dit met donkergrijze tekst, dit is makkelijker voor je hersenen, waardoor je dus minder snel vermoeid word tijdens het bekijken van je computerscherm.<br/></LI> 
+<LI>Vanaf nu kunnen we alles over de blogs en de lessen te weten komen op: https://dl.dropboxusercontent.com/u/84711/KHL/WebdesignDTP/index.html</LI></p>
+
+<p><br/><strong><center><img src="http://media.tumblr.com/48cc601183cac5419678843aec881433/tumblr_inline_mukr2gGevG1snzhne.jpg" alt="Worldwide connections" height="80%" width="80%"></center></FONT><strong></p>
+
+<p><strong><br/><br/><br/></strong></p>
+
+<p></p>
+			</div>
+ 			
+		</div>
+		
+
+		
+
+		
+
+		
+
+	
+		
+        
+		
+        
+        
+        
+		
+		<div id="pagenav">
+			<div class="inner">
+			
+
+
+			 
+				
+				<span id="pages">Permalink</span>
+				<a id="older" href="http://koninglemmens.tumblr.com/post/63391156534">&larr;&nbsp;Older</a>
+			
+
+			</div>
+		</div>
+
+	</div>
+
+	<br class="clear">
+	
+	<div id="bottom">
+	<!-- Please do not remove the credit attribution here. Feel free to modify the rest of theme as you wish, however. --><b>Design</b> adapted by <a href="http://www.prshnth.com">Joachim Lemmens</a>. Powered by <a href="http://www.tumblr.com/">Tumblr</a>.
+	</div>
+
+</div>
+
+
+
+<!-- BEGIN TUMBLR CODE -->
+        
+    
+        <iframe id="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" style="position:absolute; z-index:2147483647; top:0; right:0; border:0; background-color:transparent; overflow:hidden; " src="http://assets.tumblr.com/assets/html/iframe/o.html?_v=b1bc8125504f6a1235ac2ba64530bcb4#src=http%3A%2F%2Fkoninglemmens.tumblr.com%2Fpost%2F63855901528%2Fweek-3-les-1-zelf-webpaginas-aanpassen&amp;pid=63855901528&amp;rk=Kyg2E1LX&amp;lang=en_US&amp;name=koninglemmens&amp;avatar=http%3A%2F%2F24.media.tumblr.com%2Favatar_87b310361cb5_64.png&amp;title=Limited+edition+of+my+Tumblr+account&amp;url=http%3A%2F%2Fkoninglemmens.tumblr.com%2F&amp;page_slide=slide"></iframe>    <div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://www.tumblr.com/assets/html/iframe/teaser.html#src=http%3A%2F%2Fkoninglemmens.tumblr.com%2Fpost%2F63855901528%2Fweek-3-les-1-zelf-webpaginas-aanpassen&amp;pid=63855901528&amp;rk=Kyg2E1LX&amp;lang=en_US&amp;name=koninglemmens&amp;avatar=http%3A%2F%2F24.media.tumblr.com%2Favatar_87b310361cb5_64.png&amp;title=Limited+edition+of+my+Tumblr+account&amp;url=http%3A%2F%2Fkoninglemmens.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div>
+
+<script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=7eb19d5e1afe1978d18743fdcd5ce462");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script>
+    
+    <!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]-->
+    
+        
+<iframe src="http://assets.tumblr.com/analytics.html?35d35e387e9c9b5c2547bab9edb0e8d5" scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0 z-index:9999;" id="ga_target"></iframe>
+
+    <script>
+        var COMSCORE = true;
+        window.setTimeout(function() {
+            var analytics_frame = document.getElementById('ga_target');
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }, 1000);
+    </script>
+
+
+
+    <script type="text/javascript">
+      var _qevents = _qevents || [];
+
+      (function() {
+       var elem = document.createElement('script');
+
+       elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+       elem.async = true;
+       elem.type = "text/javascript";
+       var scpt = document.getElementsByTagName('script')[0];
+       scpt.parentNode.insertBefore(elem, scpt);
+      })();
+    </script>
+    <script type="text/javascript">
+        _qevents.push( { qacct: 'p-19UtqE8ngoZbM' } );
+    </script>
+    <noscript>
+        <div style="display: none;"><img src="//pixel.quantserve.com/pixel/'p-19UtqE8ngoZbM'.gif" height="1" width="1" alt="Quantcast"/></div>
+    </noscript>
+
+
+    <script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1381777127&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wva29uaW5nbGVtbWVucy50dW1ibHIuY29tXC9wb3N0XC82Mzg1NTkwMTUyOFwvd2Vlay0zLWxlcy0xLXplbGYtd2VicGFnaW5hcy1hYW5wYXNzZW4iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvcG9zdFwvOmlkXC86c3VtbWFyeSJ9&U=CPANEBCNEB&K=32aebf66c38eb7ab01365597930dc7f959ba8dab5c618ee012fe090792a8e12a&R=http%3A%2F%2Fkoninglemmens.tumblr.com%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1381777127&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wva29uaW5nbGVtbWVucy50dW1ibHIuY29tXC9wb3N0XC82Mzg1NTkwMTUyOFwvd2Vlay0zLWxlcy0xLXplbGYtd2VicGFnaW5hcy1hYW5wYXNzZW4iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvcG9zdFwvOmlkXC86c3VtbWFyeSIsIm5vc2NyaXB0IjoxfQ==&U=CPANEBCNEB&K=7f9bbdd3169596e5eba81f1e5f2f226b902ca1d380d9f6bd6a407566f8d9f06f&R=http%3A%2F%2Fkoninglemmens.tumblr.com%2F"></noscript>
+<script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1381777127&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2tvbmluZ2xlbW1lbnMudHVtYmxyLmNvbVwvcG9zdFwvNjM4NTU5MDE1MjhcL3dlZWstMy1sZXMtMS16ZWxmLXdlYnBhZ2luYXMtYWFucGFzc2VuIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL3Bvc3RcLzppZFwvOnN1bW1hcnkiLCJwb3N0cyI6W3sicG9zdGlkIjoiNjM4NTU5MDE1MjgiLCJibG9naWQiOiIxMzgyMzUzNDUiLCJzb3VyY2UiOjMzfV19&U=KMIGAKFNNF&K=638b7b23f30141cb5d54869c9d8f81cdfde4a068ad290642080d09483e9f7daa&R=http%3A%2F%2Fkoninglemmens.tumblr.com%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1381777127&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2tvbmluZ2xlbW1lbnMudHVtYmxyLmNvbVwvcG9zdFwvNjM4NTU5MDE1MjhcL3dlZWstMy1sZXMtMS16ZWxmLXdlYnBhZ2luYXMtYWFucGFzc2VuIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL3Bvc3RcLzppZFwvOnN1bW1hcnkiLCJwb3N0cyI6W3sicG9zdGlkIjoiNjM4NTU5MDE1MjgiLCJibG9naWQiOiIxMzgyMzUzNDUiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=KMIGAKFNNF&K=3dc6c916bc871fc77c0aabd51bb0b2e422f43d3cfdf430f36dffbe92f0ba9c09&R=http%3A%2F%2Fkoninglemmens.tumblr.com%2F"></noscript>
+<!-- END TUMBLR CODE -->
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bouwstenen voor een geslaagd webdocument</title>
+		<meta name="Author" content="Gaëtane Verbruggen">
+		<meta name="Description" content="Blogpost bij lessen week 3; Webdesign & DTP">
+		<meta name="Language" content="nl"><!-- Nederlands -->
+		<style type="text/css">
+			/* Stijldefinities */
+			body { background-color:beige; 
+				font-family: Georgia,serif; }
+			h1 { font-size: 40px;
+				color:brown; }
+			h2 { font-size: 20px;
+				color:brown; }
+			p { color:brown; }
+			em {font-style:normal;text-decoration:underline;}
+			ul { color:brown; }
+			ol { color: brown; }
+			footer { color:brown; }
+			
+		</style>
+	</head>
+	<body>
+		<article>
+			<header>
+				<h1> Bouwstenen voor een geslaagd webdocument </h1>
+				<p class="abstract"> 	Gedurende de afgelopen vier uur Webdesign bouwden we steeds verder op de belangrijkste fundamenten voor het schrijven van een webdocument. Wanneer je de basis onder de knie hebt, is het verbazend 'eenvoudig' om steeds meer functies en opties toe te voegen.
+
+							Om nog even terug te komen op de basis:
+							Elk webdocument opent met <html> (de opening tag) en eindigt met </html> (de closing tag).
+
+							Vervolgens volgt het head-gedeelte, dat ook met een opening tag begint: <head> en afsluit met de closing tag: </head>. In het head-gedeelte kan je allerlei gegevens ingeven die de lay-out van je document bepalen, maar je kan er ook opmerkingen voor jezelf ingeven. Die zijn voor de lezer van het webdocument niet zichtbaar omdat enkel wat tussen de 'body'-tags staat dat is.
+
+							In het body-gedeelte geef je de tekst in die je tevoorschijn wilt zien komen bij het openen van je webdocument. Natuurlijk moet je ook daarbinnen rekening houden met heel wat tags. Die zijn er om terug te koppelen aan de informatie die je hebt ingegeven in het head-gedeelte. Wanneer je daarin hebt aangegeven dat een titel vetgedrukt en rood moet weergegeven worden, moet je in het body-gedeelte natuurlijk ook aanduiden welk deel de titel is. </p>
+			</header>
+			<section>
+				<h2> Het Head-gedeelte </h2>
+				<p> 	Dit onderdeel van je webdocument begint steeds met het aanduiden welke 'computertaal' je gaat gebruiken. Op die manier kan je gebruik maken van bepaalde symbolen en zullen anderen onleesbaar zijn.
+					bv. <meta charset="utf-8" />
+
+					Daarnaast wordt hier ook informatie over de auteur en het onderwerp aangegeven. Iemand die die informatie wil terugvinden kan dat doen door de pagina-info te bekijken (rechterklik - pagina-info bekijken).
+
+					Het meest uitgebreide gedeelte van het head zijn de stijldefinities. Ze zorgen ervoor dat er een link is met de body van het document zodat alle opmaak daarin wordt toegepast. De stijldefinities openen binnen het head met een opening tag en eindigen met een closing tag. </p>
+			</section>
+			<section>
+				<h2> Het Body-gedeelte </h2>
+				<p> 	In dit deel van het document plaats je alle informatie die je wilt zien verschijnen wanneer je het document opent in je browser. Niet onbelangrijk is dat je zeker niet mag vergeten om de inhoud terug te koppelen aan de stijldefinities die je in het head-gedeelte opgaf.
+
+					Het kan ook handig zijn om je inhoud op te delen in een header, verschillende sections en een footer. Die onderverdeling zal visueel een beter effect geven op je webdocument en voor de opmaak is het ook handiger. Hieronder zie je een eenvoudige voorstelling van de opbouw van het document:
+
+    				<ol> 
+					<li>HTML</li>
+					<li>HEAD</li>
+					<li>BODY</li>
+				</ol>
+				<ul>
+					<li>article</li>
+   					<li>header</li>
+					<li>/header</li>
+					<li>sections</li>
+					<li>/sections</li>
+					<li>footer</li>
+					<li>/footer</li>
+					<li>/article</li>
+				</ul>
+				</p>
+			</section>
+			<section>
+				<h2> Theorie tijdens de les </h2>
+				<p> Naast doen, kregen we alweer heel wat informatie en termen mee om te onthouden. De meeste van die termen zorgen ervoor dat de inhoud van sommige tags in het document begrijpbaar worden. Zo zijn ze ook wel makkelijker te onthouden.
+				<ul>
+					<li>CSS (als in de stijldefinities): Cascading Style Sheets = de taal om de vormgeving van html-documenten te doen.</li>
+    					<li>Caniuse.com: website die een overzicht geeft van de CSS'en die je kan gebruiken bij de ontwikkeling van het webdocument.</li>
+  					<li>ASCII: een Amerikaanse afspraak met allerlei tekens ($, *, #, %, ...) De code-set breidde zich al snel uit omdat elke taal haar eigen tekens heeft. Vroeger hadden computers hiervoor niet genoeg geheugen! Maar tegenwoordig kan de hardware tot 64.000 tekens opslaan.</li>
+   					<li>W3C: World Wide Web Consortium = een internationale organisatie die afspraken rond computers en internet vaststelt. Het wordt geleid door Tim Bergers-Lee.</li>
+    					<li>UTF 8: Dit is de meest gangbare unicode die zowat alle tekens kan tonen. ASCII kon er bv. maar enkele tonen.</li>
+				</p>
+			</section>
+			<footer>
+				13 oktober 2013
+			<time class="published">
+				<p> Copyright by <a href="https://twitter.com/VGaetane">Gaëtane Verbruggen </a>
+				</p>
+			</footer>
+		</article>
+	</body>
+</html>
+					
