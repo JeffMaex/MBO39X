@@ -1,0 +1,27 @@
+@charset "utf-8";
+	
+body {background-image: url("http://p1.pichost.me/i/32/1547095.jpg");
+ 				background-position: 100% 100%;
+  				background-repeat: repeat;}
+figure img{max-width: 100%;}
+h1 {color:#DC143C;}
+h2 {color:#A52A2A;}
+strong {color:#FF8C00;}
+article header h1 {font-size:3em;margin-bottom: -0.10em;}
+article header p.abstract {font-style: italic;}
+article header {text-align: center;margin-bottom: 0em;}
+article {max-width: 45em;margin:auto;margin-bottom:3em;}
+body {font-family:Calibri,Serif; font-color: white;}
+img {max-width: 100%}
+figcaption {text-align: center;}
+centeredImage {text-align:center;}
+embed{max-width: 50%;}
+p class{font-size:2.5em;}
+td{text-align:center;}
+li1{display:inline;}
+p{color:white;}
+ul{color:white;}
+table{color:white;}
+a{color:#FFA500;text-decoration:none;}
+figcaption {color:white; text-decoration:underline;}
+		*/

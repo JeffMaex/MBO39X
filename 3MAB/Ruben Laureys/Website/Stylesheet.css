@@ -1,0 +1,102 @@
+			body {
+			background-image:url('background.jpg');
+			font-family:"cabin";
+			
+
+			}
+			article {
+			max-width: 1000px;
+			margin-right: auto;
+			margin: auto;
+			
+
+			}
+			article header h1 {
+				font-style: bold;
+				color: #32460F;
+				font-size: 50px;
+				text-align: center;
+				margin-top: 5;
+
+				
+			} 
+			article header p {
+				font-style: italic;
+				text-align: center;
+				margin-bottom: 20px;
+				color: #A0B57D;
+			}
+			article header ul {list-style-type:none; margin:0; padding:0; overflow:hidden; }
+
+			article header li {float:left; }
+
+			article header a:link {color: #7FA343; display:block; text-decoration: none; background-color: none; text-transform:uppercase; text-align:left; font-weight:bold; width:100%; padding:6px;} /* unvisited link */
+
+			article header a:visited {color: #7FA343; display:block; text-decoration: none; background-color: none; text-transform:uppercase; text-align:left; font-weight:bold; width:100%; padding:6px;} /* visited link */
+
+			article header a:hover {color: #A0B57D; display:block; text-decoration: none; background-color: none; font-size:100%; font-weight:bold; text-transform:uppercase; text-align:left; width:100%; padding:6px;} /* mouse over link */
+
+			article header a:active {color: #7FA343; display:block; text-decoration: none; background-color: none;text-transform:uppercase; width:100%; text-align:left; font-weight: normal; padding:6px;} /* selected link */
+
+			article section h2 {
+				font-size: 20px;
+				margin-top: 0%;
+				color: #A0B57D;
+				border-bottom-style:solid;
+				border-bottom-color: #32460F;
+
+
+			}
+			article section p {
+				font-size: 15px;
+				font-style: normal;
+				color: #A0B57D;
+				margin-top: 6;
+				margin-bottom: 0
+			}
+
+			article section td {
+				font-size: 15px;
+				font-style: normal;
+				color: #A0B57D;
+				margin-top: 6;
+				margin-bottom: 0%;
+				
+			}
+			article section img {
+				width: 50%
+			}
+			
+			article section a:link {
+				font-size: 15px;
+				font-weight: bold;
+				color: #7FA343;
+				margin-top: 6;
+				margin-bottom: 0
+			} /* unvisited link */
+
+			article section a:visited {
+				font-size: 15px;
+				font-weight: bold;
+				color: #7FA343;
+				margin-top: 6;
+				margin-bottom: 0
+			} /* visited link */
+
+			article section a:hover {
+				font-size: 15px;
+				font-weight: bold;
+				color: #7FA343;
+				margin-top: 6;
+				margin-bottom: 0
+			} /* mouse over link */
+
+			article section a:active {
+				font-size: 15px;
+				font-weight: bold;
+				color: #7FA343;
+				margin-top: 6;
+				margin-bottom: 0
+			} /* selected link */
+
+	

@@ -1,0 +1,68 @@
+﻿			body {
+				font-family:Georgia, "Times New Roman",Times,serif;
+				font-size:18px
+				line-height:1.5m;
+				background-color:rgb(230,230,170);
+								
+			}
+			
+			table {
+				margin: auto;
+			}
+			
+
+
+			figure {
+				max-width:100%;
+				margin:auto;
+			}
+
+			figure img { 
+				max-width: 100%;
+				display:block;
+				margin:auto;
+				margin-top: 2em;
+			}
+
+			figcaption {
+				font-size:12px;
+				font-style:italic;
+			}
+				
+				
+			header {
+				margin-top:2em;
+				margin-bottom:3em;
+			}
+
+			header h1 {
+				font-weight: normal;
+
+			}
+
+			header p.abstract {
+				font-style: italic;
+				color:grey;
+			}
+
+
+
+			article {
+
+				max-width:50em;
+				margin:auto;
+				margin-bottom:5em;
+				margin-top: 2em;
+}
+			footer {
+				position: fixed;
+				bottom:0;
+				left:0;right:0;
+				width:100%;
+				margin-top:3em;
+				border-top: solid 1px grey;
+				padding-top:1em;
+				font-size:12px;
+				background-color:rgba(255,255,255,0.8);
+				text-align:center;
+			}
