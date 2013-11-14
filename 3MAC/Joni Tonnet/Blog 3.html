@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>De basis voor het opbouwen van een webdocument</title>
+		<meta name="Author" content="Joni Tonnet">
+		<meta name="Description" content="Blog lesweek 3; Webdesign & DTP">
+		<meta name="Language" content="nl"><!-- Nederlands -->
+		<style type="text/css">
+			/* Stijldefinities */
+			body { background-color:pink; 
+				font-family: Verdana,Georgia,serif; }
+			h1 { font-size: 40px;
+				color:brown; }
+			h2 { font-size: 20px;
+				color:brown; }
+			p { color:brown; }
+			em {font-style:normal;text-decoration:underline;}
+			ul { color:brown; }
+			ol { color: brown; }
+			footer { color:brown; }
+			
+		</style>
+	</head>
+	<body>
+		<article>
+			<header>
+				<h1> De basis voor het opbouwen van een webdocument </h1>
+				<p class="abstract"> Ondanks het moeilijke begin met dit vak, schijnt er al een beetje licht aan het einde van de tunnel. Ik weet nu wat er van mij verwacht wordt, namelijk dat ik iets online kan zetten dat er goed uitziet en dat ik dat dan ook kan aanpassen. Tijdens deze lessen heb ik dan ook de basis voor een webdocument aangeleerd gekregen. </p>
+			</header>
+			<section>
+				<h2>Browsers</h2>
+				<p> Voor we begonnen met de basis hebben we het nog gehad over browsers. 
+				<ul>
+					<li>Rendering engine is een open source, met andere woorden iedereen kan het vrij gebruiken of bewerken. Safari en chrome gebruiken een webkit rendering engine.</li>
+					<li>CSS: cascading style sheets, kortom de vormgeving van een webdocument. </li>
+					<li>Er zijn web standaarden gemaakt die bijvoorbeeld mozilla wel volgt. Een webkit browser doet dat in principe ook, maar nemen de afspraken niet echt nauw aangezien ze het grootste marktaandeel hebben (microsoft)</li>
+					<li>Om op het internet iets te doen dat voor iedereen werkt, heeft men afspraken nodig = protocollen.</li>
+				</ul>
+				</p>
+			</section>
+			<section>
+				<h2>De basis</h2>
+				<p>Om een paginabron over te nemen: ga je naar weergave, dan ontwikkellaar en dan paginabron weergeven.  Deze informatie plak je, in mijn geval, in sublime text. Op deze manier kan je de codes beginnen aan te passen. 
+				Voor de duidelijkheid nog enkele regels op een rijtje:
+	 			<ol>
+	 				<li>Een webdocument open je met de opening tag en eindigt met de closing tag. 
+	 				Daarna heb je het head-gedeelte. Dat begint ook met een opening tag en sluit met een closing tag. Ten eerste moet je aanduiden welke computertaal je gaat gebruiken zodat je gebruik kan maken van bepaalde symbolen, anderen worden dan weer onzichtbaar.  Ook wordt er hier informatie gegeven over de auteur en het onderwerp. Het grootste onderdeel van de head zijn de stijldefinities. De bepalen de lay-out. Ook kan je opmerkingen ingeven voor jezelf, maar deze zijn dan niet zichtbaar voor de lezer van het webdocument. Als het zichtbaar moet zijn, dan moet het tussen body-tags staan.</li>
+	 				<li>Dus na het head-gedeelte komt het body-gedeelte. Hier geef je dus de tekst in dat je aan je lezer wil laten zien. 
+	 				Binnen het body-gedeelte moet je ook gebruiken maken van tags zodat er kan worden terugverwezen naar de informatie(stijldefinities) binnen het head-gedeelte.Bijvoorbeeld als je een titel in het vet wilt zetten met een groene kleur, dan moet je in het body-gedeelte aanduiden welke titel deze kenmerken moet krijgen. Om een beter overzicht te hebben, kan je dit gedeelte opdelen in een header, verschillende sections en een footer. </li>
+	 			</ol>
+	 			</p>
+	 		</section>
+	 		<section>
+	 			<h2>Theorie</h2>
+	 			<p>
+	 			<ul>
+	 				<li>ASCII: een Amerikaanse afspraak met allerlei tekenens.</li> 
+	 				<li>W3C: 3x= www , C: Consortium. Tim Bergers-Lee begeleidt deze organisatie die zich bezighoudt met het vaststellen van afspraken rond computers en internet.</li>
+	 				<li>UTF 8: Dit is een unicode die bijna alle tekens kan tonen.</li>
+	 				<li>Caniuse.com: een website die overzicht geeft van de CSS’en die je kan gebruiken bij het opstellen van je webdocument.</li>
+				</ul>
+				</p>
+			</section>
+			<footer>
+				15 oktober 2013
+			<time class="published">
+				<p> Copyright by <a href="http://jonitonnet.tumblr.com">Joni Tonnet </a>
+				</p>
+			</footer>
+		</article>
+	</body>
+</html>
