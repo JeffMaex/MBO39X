@@ -1,0 +1,104 @@
+@charset "utf-8";
+body  {
+	font: 100% Georgia, Times New Roman, Times, serif;
+	background: #666666;
+	text-align:center;
+	
+	}
+	
+h2{ 
+ /* Eigenschappen van de titels op niveau 2*/
+	font-size:110%;
+	font-size:110%;
+	}
+	
+caption{
+ /* eigenschappen van de titels van tabellen*/
+	background-color:#403836;
+	color:#FFFFFF;
+	}
+
+		 
+#navcontainer{
+ /* Omkadering navigatie*/
+	background: #403836;
+	width: 95%;
+	padding: 1em 0;
+	font: 15px Lucida Calligraphy, Georgia, Palatino Linotype,serif;
+	text-align:center
+	}
+div#navigatie {
+/* Navigatie plaats*/
+	float: left;
+	width: 200px;
+	height: 370px;
+	padding: 20px 10px 15px 20px;
+	}
+#navlist a:link#actief, #navlist a:visited#actief, #navlist a:hover{
+	color: #FFF;
+	background: transparent;
+	text-decoration:none;
+	}
+	
+
+ul#navlist {
+/*weergaven van de unsorted list*/
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 80%;
+	}
+
+ul#navlist li a{
+/* Weergave van de tekst in de navigatie tekst */
+	display: block;
+	width: 100%;
+	padding: 0.5em 0 0.5em 0;
+	color:#422100;
+	text-decoration:none;
+	background: #f0e99f;
+	border: solid 1px #F0E987;
+	}
+
+
+
+ul#navlist li a:hover{
+/* tekst effect bij overgaan*/
+	color: #FFF;
+	background: transparent;
+	text-decoration:none;
+	}
+
+div#container {
+	/* Tekst achtergrond gegevens*/
+	width: 780px;
+	background: #BFA26B;
+	text-align: left;
+	margin: 0px auto 0px auto;
+	} 
+
+div#tekst {
+/* Eigenschappen van de gewoon geschreven tekst*/
+	color:#403836;
+	padding: 0px 20px 0px 20px;
+	margin:0px 0px 0px 210px;
+	float: none;
+	min-height: 500px;
+	}
+
+ul#nostyle{
+	list-style:none;
+	}
+
+.tdop { font-weight: bold; } 
+.opleiding { border-collapse: collapse; border-spacing: 0; font-size: 100%;  font: inherit; }
+.opleiding td { border: 0px #555 solid; padding: 10px; vertical-align: top; }
+
+.tdtaal { font-weight: bold; }
+.thtaal { font-weight: bold; } 
+.taal { border-collapse: collapse; border-spacing: 0; font-size: 100%;  font: inherit; }
+.taal td { border: 1px #555 solid; padding: 10px; vertical-align: top; }
+
+.pctd { font-weight: bold; } 
+.PC{ border-collapse: collapse; border-spacing: 0; font-size: 100%; font: inherit; }
+.PC td { border: 0px #555 solid; padding: 10px; vertical-align: top; }
