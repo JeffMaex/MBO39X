@@ -76,6 +76,14 @@ div#container {
 	text-align: left;
 	margin: 0px auto 0px auto;
 	} 
+	
+	div#social-icons{
+	/*eigenschappen logo's social media*/
+	padding: 0px 20px 0px 20px;
+	margin:0px 0px 0px 210px;
+	float: none;
+	border: none;
+	}
 
 div#tekst {
 /* Eigenschappen van de gewoon geschreven tekst*/
@@ -86,6 +94,9 @@ div#tekst {
 	min-height: 500px;
 	}
 
+	
+	
+	
 ul#nostyle{
 	list-style:none;
 	}
