@@ -1,0 +1,78 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  position: relative;
+  font-family: Tahoma, Arial, Verdana;
+background-color: #F5F5F5;  }
+
+header {
+ /*  border-bottom: 2px solid #575757; */
+  min-width: 500px; }
+    header .top-strip ul {
+      padding: 0;
+      margin: 0; }
+    header .top-strip .social {
+      float: right;
+      position: absolute;
+      top: 25px; }
+      header .top-strip .social li img {
+        max-height: 30px; }
+  header .menu-strip {
+    margin: 10px auto 0;
+    padding: 5px 0;
+    border-bottom: 3px solid #575757;
+    min-width: 500px; }
+    header .menu-strip ul {
+      padding-left: 0;
+      margin: 0;
+      text-align: center; }
+      header .menu-strip ul li {
+        display: inline;
+        margin: 0 5px; }
+        header .menu-strip ul li a {
+          padding: 8px;
+          font-size: 20px;
+          text-decoration: none;
+          color: black;
+          -webkit-transition: background 0.150s ease-in, color 0.150s ease-in;
+          /* Chrome 1-25, Safari 3.2+ */
+          -moz-transition: background 0.150s ease-in, color 0.150s ease-in;
+          /* Firefox 4-15 */
+          -o-transition: background 0.150s ease-in, color 0.150s ease-in;
+          /* Opera 10.50–12.00 */
+          transition: background 0.150s ease-in, color 0.150s ease-in;
+          /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */ }
+          header .menu-strip ul li a:hover {
+            color: white;
+            background: #575757; }
+  header h1 {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #575757;
+    text-align: center; }
+
+main {
+  margin: 80px 0; 
+  border-bottom: 5px solid #E8E8E8;}
+  main .nieuws-items {
+    width: 80%;
+    min-width: 500px;
+    margin: 0 auto; }
+    main .nieuws-items article {
+      margin-bottom: 50px; }
+      main .nieuws-items article .meta {
+        margin: 0;
+        margin: -5px 0 0 5px;
+        font-size: 12px; }
+      main .nieuws-items article p {
+        margin-bottom: 0; }
+      main .nieuws-items article h1 {
+        margin: 0;}
+footer {
+text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -49,3 +49,19 @@ ul#menuMini {
 ul#menuMini li {list-style:none;}
 ul#menuMini img { max-width: 100%;}
 
+div.tekst {float:left;
+border: 1px dashed #FF0000;
+color: #000000;
+text-align: center;
+width: 100px;
+margin: 0px;
+padding: 400px;}
+
+div.twitterbox {float:right;
+border: 1px dashed #FF0000;
+color: #000000;
+text-align: center;
+width: 100px;
+margin: 0px;
+padding: 4px;}
+
