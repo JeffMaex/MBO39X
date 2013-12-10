@@ -1,0 +1,136 @@
+html { 
+  background:url(Afbeeldingen/Achtergrond.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	font-family:"AR CENA";
+	padding:0px;
+	background-color://;
+}
+
+div#container {
+	margin: 0px auto 0px auto;
+	width: 1000px;
+}
+
+div#banner {
+	padding:0px;
+	margin:0px;
+}
+
+#banner img{
+	width:100%;
+	height:200px;
+}
+
+div#navigatiebalk {
+	text-align:center;
+	width:100%;
+	margin-top: -21px;
+}
+
+#navigatiebalk ul {
+  padding:0;
+  border-radius:15px;
+  vertical-align:top;
+}
+
+#navigatiebalk ul li {
+  display:inline;
+}
+
+#navigatiebalk ul li a {
+	line-height: 40px;
+	text-decoration:none;
+	width: 33.333333333%;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+	background-color:#666;
+	color:#FF006E;
+}
+
+div#tekstvak {
+	margin: 0px auto 0px auto;
+	border-radius: 10px;
+	top: 20px;
+	position:relative;
+	float:left;
+	margin-left:-10px;
+}
+
+#tekstvak h1 {
+	background:#666;
+	color:#FF006E;
+	width:30%;
+	margin: 10px;
+  	padding: 10px;
+}
+
+#fotovak {
+	background:rgba(250,250,250, .1);
+	margin-top:-10px;
+	padding:3px;
+	height:100%;
+	overflow:auto;
+	margin-left:10px;
+}
+
+#fotovak ul {
+	list-style-type:none;
+}
+
+#fotovak ul li img {
+	width: 96%
+}
+
+#fotovak h2 {
+	color:#FF006E;
+  	margin:10px;
+	border-radius: 0 10px 0 0;
+}
+
+#tekstvak2 {
+	background:rgba(250,250,250, .1);
+	margin-top:-10px;
+	margin-left:10px;
+	padding:3px;
+	height:100%;
+	overflow:auto;
+}
+
+#tekstvak2 p {
+	color:#FFF;
+  	margin:10px;
+	border-radius: 0 10px 0 0;
+	padding: 3px;
+}
+
+#tekstvak h2 {
+	color:#FF006E;
+  	margin:10px;
+	border-radius: 0 10px 0 0;
+}
+
+#tekstvak h3 {
+	color:#FF006E;
+  	margin:10px;
+	border-radius: 0 10px 0 0;
+}
+
+#tekstvak a {
+	color:#FF006E;
+  	margin:10px;
+	border-radius: 0 10px 0 0;
+}
+
+#tekstvak2 img {
+	float:right;
+	width:250px;
+	height:250px;
+	margin:10px;
+}

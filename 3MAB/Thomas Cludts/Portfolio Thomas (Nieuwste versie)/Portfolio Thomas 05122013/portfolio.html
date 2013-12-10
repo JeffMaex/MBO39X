@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>My portfolio</title>
+  <meta name="description" content="Personal Webpage Thomas Cludts" />
+  <meta name="keywords" content="Portfolio, Thomas Cludts" />
+  <meta name="author" content="Thomas Cludts"
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>MY<a href="#">PORTFOLIO</a></h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about me</a></li>
+          <li class="current"><a href="portfolio.html">my portfolio</a></li>
+          <li><a href="blog.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div id="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/Foto1.jpg" alt="TheSnatcher-DJ-ThomasCludts" /></li>
+            <li><img width="450" height="450" src="images/Foto23.jpg" alt="HardcoreManiacs-2013" /></li>
+            <li><img width="450" height="450" src="images/Foto3.jpg" alt="HardcoreManiacs-2014" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+      <center>  <h1>my portfolio</h1>
+        <i><b>Persoonlijke gegevens</b></i>
+        <p>Thomas Cludts - 20 - Kwerpsebaan 195 - Kortenberg</p>
+        <p>0484/**.**.** - thomas.cludts@student.khleuven.be</p>
+        <i><b>Studies</b></i>
+        <p>Bachelor Management Assitant EPM - KHLeuven - 2011-2014</p>
+        <p>Sociale Technische Wetenschappen - SMLeuven - 2005-2011</p>
+        <i><b>Laatste Werkervaringen</b></i>
+        <p>Hobart - Stocktelling - November 2013</p>
+        <p>DBM - Gegevensinput - Augustus 2013</p>
+        <p>Materialise NV - Shipment - Augustus 2012</p>
+      </center> </div>
+    </div>
+    <footer>
+      <p><a href="index.html">home</a> | <a href="about.html">about me</a> | <a href="portfolio.html">my portfolio</a> | <a href="blog.html">contact</a></p>
+      <p id="footerquote"><i>"Always forgive your enemies; nothing annoys them so much." -Oscar Wilde</i></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>
