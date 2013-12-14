@@ -1,0 +1,10 @@
+# On this file you can set the domain names for your folder. If you don't have a 
+# domain name you can use a dockbox.io subdomain like example.dockbox.io.
+
+# If you set a subdomain like blog.example.com, www.example.net or me.example.com
+# you must add a DNS CNAME Record for your subdomain and point it to 
+# proxy.dockbox.io. If you add a naked domain like example.com, my-website.com 
+# or me.com.br you must add a DNS A Record for your domain and point it to 
+# 23.21.210.233.
+
+62e397186fbf8020cb9cc10a2278bdd1.dockbox.io

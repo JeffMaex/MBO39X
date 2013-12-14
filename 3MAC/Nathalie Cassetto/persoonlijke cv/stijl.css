@@ -1,0 +1,148 @@
+
+//56B2AB
+img { max-width: 100%;}
+body { 
+       font-family: palatino;
+       line-height: 1,2em;
+       background:white url('bloemen.jpg') repeat;
+
+}
+.data{
+    font-size: 14px;
+   font-family: palatino;
+
+}
+article  {max-width: 50%;
+          margin:auto;
+          margin-bottom: 5em;
+          background-color: white;  
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          -moz-border-radius-topleft: 10px;
+          -webkit-border-top-left-radius: 10px;
+          -moz-border-radius-bottomright: 10px;
+          -webkit-border-bottom-right-radius: 10px;
+          border: 2px solid #56B2AB;
+          padding: 10px;}
+
+h1{
+    color:#56B2AB;
+    font-size: 30px;
+    text-align:center;}
+
+h2{
+    color:white;
+    font-size:20px}
+
+h3{ 
+    color:#56B2AB;
+    font-weight: normal;
+    font-family: palatino;
+    padding-left: 40px;
+    margin-left: 40px;}
+
+h4{
+    color:#56B2AB;
+    font-size: 50px;
+    text-align:center;}
+
+table
+th
+{background-color:#FFF;
+  color:#56B2AB;}
+
+.titleVak{
+    font-weight: normal;
+    color:#336699;
+}
+ul,ol{
+    
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    width: 75%;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #56B2AB, rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), #56B2AB, rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), #56B2AB, rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), #56B2AB, rgba(0,0,0,0));}
+
+#persoonGegevens{
+   font-size: 14px;
+   font-family: palatino;
+   padding-left: 40px;
+   margin-left: 40px;
+   list-style-type: none;
+   padding-right: 40px;
+   margin-right: 40px;}
+
+.wit2{
+    
+    margin: 10px;
+    padding: 8px;
+}
+.wit{
+    
+    margin: 20px;
+    padding: 20px;
+}
+#profielfoto{
+    float: right;
+    padding-right: 40px;
+    margin-right: 40px;
+    border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          -moz-border-radius-topleft: 10px;
+          -webkit-border-top-left-radius: 10px;
+          -moz-border-radius-bottomright: 10px;
+          -webkit-border-bottom-right-radius: 10px;
+          border: 2px solid #FFF;
+    height:150px;}
+#voorpaginafoto{
+    float:center;
+    width:"600";
+    border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 2px solid #FFF;}
+#vaardigheden{
+   font-size: 14px;
+   font-family: palatino;
+   padding-left: 40px;
+   margin-left: 40px;
+   list-style-type: none;}
+#professioneleDoelStellingText{
+      padding-left: 40px;
+      margin-left: 40px;
+     padding-right: 40px;
+     margin-right: 40px;}
+.LijstItem{
+    margin-top: 10px;
+    padding-top:8px;}
+
+label{
+    color:#56B2AB;
+}
+.lijstje{
+    padding-left: 40px;
+    margin-left: 40px;
+    list-style-type:none;
+    padding-right: 40px;
+    margin-right: 40px;}
+.labelErvaring{
+    margin-left:40px;
+    padding-left:40px;}
+.green{
+ color:#56B2AB;}
+.address{
+   font-size: 12px;
+   text-decoration: underline;
+   font-weight: bold;
+   color:#56B2AB;
+   text-align:center;}
