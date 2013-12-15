@@ -35,3 +35,17 @@ font-family:"Corbel";
 color:grey;
 font-size:20px
 }
+
+li1
+{
+display:inline
+text-align:center;
+}
+
+ul1
+{
+font-family:"Gulim";
+color:purple;
+font-size:20px;
+text-align:center;
+}

@@ -1,0 +1,220 @@
+/* -- CSS Template WebSonic.nl - opmaak standaard gebruikte elementen -- */
+
+body {
+	background-color:#000000;
+	margin:0px;
+	padding:0px; 
+	overflow:-moz-scrollbars-vertical;
+}
+
+/* basis */
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+td, div, th, span {
+	vertical-align:top;
+	text-align:left;
+	border:0px solid #ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	color:#000000;
+}
+
+/* opsommingen */
+
+ul,
+ol {
+	margin-left:20px;
+	margin-bottom:15px;
+}
+
+ul li {
+	list-style-type:square;
+}
+
+/* afbeeldingen */
+
+img {
+	border:none;
+}
+
+/* invoervelden */
+
+input {
+	width:200px;
+	border:1px solid #808080;
+	background:none;
+	color:#333333;
+}
+
+textarea {
+	width:200px;
+	border:1px solid #808080;
+	color:#333333;
+}	
+
+button,
+.button {
+	width:200px;
+	border:1px solid #808080;
+	background:none;
+	background-color:#004c9;
+	color:#333333;
+}
+
+/* links */
+
+a:link { 
+	color:#FF6600; 
+	text-decoration:underline;
+}
+
+a:visited { 
+	color:#FF6600;
+	text-decoration:underline;
+}
+
+a:hover { 
+	color:#666666;
+	text-decoration:underline;
+}
+
+a:active {
+	color:#FF6600;
+	text-decoration:underline;
+}
+
+/* container */
+
+div.container {
+	width:950px;
+	margin:0px auto;
+}
+
+/* header */
+
+div.header {
+	width:930px;
+	height:100px;
+	margin-top:10px;
+	padding:10px;
+	background-color:#FFFFFF;
+}
+
+/* leftcontent / menu */
+
+div.leftcontent {
+	float:left;
+	width:130px;
+	margin-top:10px;
+	padding:10px;
+	background-color:#FFFFFF;
+}
+
+/* maincontent */
+
+div.maincontent {
+	float:left;
+	width:770px;
+	margin-top:10px;
+	margin-left:10px;
+	padding:10px;
+	background-color:#FFFFFF;
+}
+
+/* opmaak */
+
+P {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	color:#000000;
+	margin-bottom:15px;
+}
+
+H1 {
+color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+}
+
+H2 {
+color:#FF6600;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+}
+
+H3 {
+color:#666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+}
+
+H4 {
+color:#FF6600;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	margin-bottom:0px;
+}
+
+H5 {
+color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	margin-bottom:0px;
+}
+
+H6 {
+color:#666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	margin-bottom:0px;
+}
+
+
+
+ul.a {list-style-type:circle;}
+ul.b {list-style-type:square;}
+ol.c {list-style-type:upper-roman;}
+ol.d {list-style-type:lower-alpha;}
+
+div {
+        background-color:#000000;
+        background-color:rgba(0, 0, 0, 0.3);
+}
+
+ 	
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #0D0D0D 0%, #044769 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #0D0D0D 0%, #044769 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #0D0D0D 0%, #044769 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0D0D0D), color-stop(1, #044769));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #0D0D0D 0%, #044769 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #0D0D0D 0%, #044769 100%);
